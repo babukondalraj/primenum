@@ -1,0 +1,13 @@
+Here is a high level design in angular
+1. create a component which has two text fields, label to display the comparision and compare button
+2. When the user enters the two city zip codes and clicks the compare button.
+3. Call the serice layer.
+4. The service layer will make the API call to get the air quality for the city 1 and city2
+4. Compare the air quality and create a comparision result to display
+
+validation
+1. the text field should account only numbers
+2. set the max length to 5
+3. compare button should  be enabled only both the text fields are valid
+
+
